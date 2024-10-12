@@ -50,7 +50,7 @@ Authentication: JWT Tokens for secure user authentication.
 Custom homepages designed to cater to the specific needs of Students, Faculty, and Staff.
 
 ## 👥 Contributors
-Gaurav Kumar Chaurasiyan
+Gaurav Kumar Chaurasiya
 
 Minshu Shaw
 
