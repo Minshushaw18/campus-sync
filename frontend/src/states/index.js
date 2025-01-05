@@ -18,13 +18,7 @@ export const authSlice = createSlice({
             state.user = null;
             state.token = null;
         },
-        // setEnrolledCourse: (state, action) =>{
-        //     const updatedEnrolledCourses = state.enrolledCourses.map((courseID) => {
-        //         if (courseID=== action.payload.course.courseID) return action.payload.course.courseID;
-        //         return courseID;
-        //       });
-        //       state.enrolledCourses = updatedEnrolledCourses;
-        // },
+
         setEnrolledCourse: (state, action) => {
             // Check if the course is already enrolled
             const isEnrolled = state.enrolledCourses.some(course => course === action.payload.course.courseID);
